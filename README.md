@@ -51,14 +51,4 @@ Electricity prices are highly volatile due to demand, renewable generation, and 
 
 ---
 
-## How to Run
-```bash
-# Create environment
-python -m venv .venv
-source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Train a model
-python train.py --config configs/gnn.yaml
